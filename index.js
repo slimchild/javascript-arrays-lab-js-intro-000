@@ -22,5 +22,4 @@ function appendKitten(kitten){
   const kittens = ['Milo', 'Otis', 'Garfield'];
   const moreKittens = [...kittens, "Broom"];
   return moreKittens;
-
 }
