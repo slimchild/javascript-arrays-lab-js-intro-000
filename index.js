@@ -8,6 +8,6 @@ return kittens;
 
 function destructivelyPrependKitten(kitten){
 kittens.unshift(kitten);
-return kittens
+return kittens;
 
 }
