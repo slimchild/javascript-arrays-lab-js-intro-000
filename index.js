@@ -28,3 +28,8 @@ function prependKitten(kitten){
   const moreKittens = ["Arnold", ...kittens];
   return moreKittens;
 }
+
+function removeLastKitten(kitten){
+kittens.pop(kitten);
+return kittens;
+}
