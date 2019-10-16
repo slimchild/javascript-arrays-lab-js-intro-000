@@ -19,7 +19,8 @@ kittens.shift(kitten);
 return kitten;
 }
 function appendKitten(kitten){
-  [...kittens, "Broom"];
-  return kittens;
+  const kittens = ['Milo', 'Otis', 'Garfield'];
+  const moreKittens = [...kittens, "Broom"];
+  return moreKittens;
 
 }
