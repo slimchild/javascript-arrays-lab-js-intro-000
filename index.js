@@ -21,5 +21,5 @@ return kitten;
 function appendKitten(kitten){
   kittens.push(kitten);
   return kitten;
-  
+
 }
