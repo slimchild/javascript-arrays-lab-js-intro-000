@@ -19,7 +19,7 @@ kittens.shift(kitten);
 return kitten;
 }
 function appendKitten(kitten){
-  kittens.push(kitten);
+  [...kittens, "kitten"];
   return kitten;
 
 }
