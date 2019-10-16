@@ -23,3 +23,8 @@ function appendKitten(kitten){
   const moreKittens = [...kittens, "Broom"];
   return moreKittens;
 }
+function prependKitten(kitten){
+  const kittens = ['Milo', 'Otis', 'Garfield'];
+  const moreKittens = ["Broom", ...kittens];
+  return kittens;
+}
