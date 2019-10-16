@@ -20,6 +20,6 @@ return kitten;
 }
 function appendKitten(kitten){
   [...kittens, "kitten"];
-  return kitten;
+  return kittens;
 
 }
